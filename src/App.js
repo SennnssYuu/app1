@@ -1,6 +1,15 @@
-import logo from './LOGO-CIT.png' //ภาพอยู่ที่ src/LOGO-CIT.png
 import React from 'react'
-  function App() {
-    return <img src={logo} width='10%' alt=''/>
-  }
+import { Header, Content, Footer } from './func-components'
+
+function App() {
+  return (
+    /*[<Header />, <Content />, <Footer />] */
+    <div>
+      <Header />
+      <Content />
+      <Footer />
+    </div>
+  )
+}
+
 export default App;
