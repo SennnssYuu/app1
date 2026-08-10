@@ -1,16 +1,6 @@
-import React from 'react'
-import { Header, Content, Footer } from './func-components'
-import Calender from './class-components'
+ import React from 'react'
+ import {EventData1} from './event-data'
 function App() {
-  return (
-    /*[<Header />, <Content />, <Footer />] */
-    <div>
-      <Header />
-      <p><center><Calender /></center></p>
-      <Content />
-      <Footer />
-    </div>
-  )
+   return <EventData1/> 
 }
-
-export default App;
+export default  App;
